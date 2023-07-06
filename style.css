@@ -1,0 +1,81 @@
+
+.film{
+    font-family: 'Lobster', cursive;
+    border: 5px solid rgb(195, 0, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.film hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#film-details{
+
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 5rem;
+
+}
+
+#left-div{
+    border: 1px solid yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#centre-div{
+border: 1px solid lime;
+}
+
+#centre-div > img{
+     width: 300px;
+}
+
+#right-div{
+border: 1px solid salmon;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5px;
+}
+
+#form_wrapper{
+    width: 400px;
+    margin: auto;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#form > input{
+    margin-bottom: 10px;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+#form > input[type=submit]{
+    background-color: aquamarine;
+}
+
+#form > input[type=submit]:hover{
+    cursor: pointer;
+}
+
+button{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+button :hover{
+    cursor: pointer;
+}
